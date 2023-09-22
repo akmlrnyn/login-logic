@@ -12,6 +12,8 @@ const inputPasswordElement = document.querySelector("#inputPassword");
 const expectedEmail = "naufaldec07@gmail.com";
 const expectedPassword = "12345678";
 
+
+
 loginFormElement.addEventListener("submit", function (event) {
   event.preventDefault();
   // TODO 1 : Mendapatkan input email dan password pengguna dari form.
@@ -27,4 +29,8 @@ loginFormElement.addEventListener("submit", function (event) {
   } else {
     showPopUp();
   }
+  return false
 });
+
+
+
